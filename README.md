@@ -1,23 +1,30 @@
 # Pokémon Cards Web Scraping & Profitability Analysis
 
-This project extracts Pokémon card data from an online marketplace, collects pricing information (ungraded, Grade 9, PSA 10), calculates potential profit margins, applies filtering criteria, and exports the results to Excel.
+## Project Overview
+This project performs web scraping on a Pokémon card marketplace to extract pricing data for multiple card sets.  
+It collects different price conditions (ungraded, Grade 9, PSA 10), calculates potential profit margins, applies filtering criteria, and exports structured results to Excel.
 
-Filtering criteria
+## Business Logic
+The script identifies potentially profitable cards based on:
 
-Ungraded price < 50€
+- Ungraded price < 50€
+- Estimated profit > 100€
 
-Potential profit > 100€
+This allows quick detection of arbitrage opportunities between raw and graded cards.
 
-Technologies used
+## Technologies Used
+- Python
+- Requests
+- BeautifulSoup
+- Pandas
 
-Python
+## Output
+The filtered dataset is exported as an Excel file.  
+An example output can be found in the `/outputs` folder.
 
-Requests
+## How to Run
+Install dependencies:
 
-BeautifulSoup
+pip install -r requirements.txt
 
-Pandas
-
-Output
-
-Filtered dataset exported as Excel file (see /outputs folder).
+Then execute the notebook inside the `/notebooks` folder.
