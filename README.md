@@ -1,4 +1,4 @@
-Pokémon Cards Web Scraping & Profitability Analysis
+# Pokémon Cards Web Scraping & Profitability Analysis
 
 This project extracts Pokémon card data from an online marketplace, collects pricing information (ungraded, Grade 9, PSA 10), calculates potential profit margins, applies filtering criteria, and exports the results to Excel.
 
